@@ -1,3 +1,53 @@
+## Quotidian - Daily Quote App
+
+Quotidian is a simple app that delivers a new quote every day to users. Whether you're looking for inspiration, motivation, or just a daily dose of wisdom, Quotidian has got you covered. It provides a new quote every day that you can swipe through and read at your own pace. The app's minimalist design makes it easy to focus on the quote without distractions.
+
+## Demo
+
+<img src="https://user-images.githubusercontent.com/65452331/221412388-085e2dd5-7a05-429b-aa97-d67aa3dc5099.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/65452331/221412390-488a2c57-7b1e-4cd6-8025-754b11822481.gif" width="44%"></img> 
+
+Click [here](https://appetize.io/app/qdldm4fp4jqjvieqyltswe3yv4) to try out our sample app without downloading or installing anything.
+
+## Tech Stack
+
+**Programming Language:** Kotlin
+
+**UI:** Jetpack Compose
+
+**Development Tools:** Android Studio IDE
+
+**Libraries and Frameworks:**
+
+ - Android Jetpack Components: Room, Navigation
+ - WorkManager used to schedule PeriodicWorkRequets that run in the background. 
+ - Retrofit and OkHttp for network requests and API communication
+
+ - Coil for image loading and caching
+
+ - Gson for JSON serialization and deserialization
+
+ - Kotlin Coroutines for managing background tasks
+ 
+ - Material Design guidelines and standards for UI design
+
+ - Gradle for building and dependency management
+
+**Database:** Room DB
+
+**Version Control:** Git
+
+**Testing:** 
+
+ - JUnit and Mockito for unit testing
+ - Espresso for UI testing
+
+## Roadmap
+
+- [ ] Personalization options
+- [ ] Quote archives
+- [ ]  Quote search
+
+
 ## Acknowledgements
 
 I would like to acknowledge the [ZenQuotes.io](https://zenquotes.io/) for providing the data used in this project. The documentation can be found [here](https://docs.zenquotes.io/zenquotes-documentation/).
